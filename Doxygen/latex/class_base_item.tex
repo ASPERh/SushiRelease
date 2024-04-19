@@ -1,0 +1,340 @@
+\doxysection{Base\+Item Class Reference}
+\hypertarget{class_base_item}{}\label{class_base_item}\index{BaseItem@{BaseItem}}
+
+
+{\ttfamily \#include $<$Base\+Item.\+h$>$}
+
+Inheritance diagram for Base\+Item\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_base_item}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_base_item_a3579a8a4ba057d87f12e19febff5cf14}{Base\+Item}} ()
+\item 
+void \mbox{\hyperlink{class_base_item_a36fbff9a0795e85d7d56c911d90981e8}{set\+Position}} (Vector2i \mbox{\hyperlink{class_base_item_af0e43625c27b305382ca730ac4981c3d}{position}})
+\item 
+void \mbox{\hyperlink{class_base_item_af46a6bd627806dba6bdb79c29889ebcd}{set\+Size}} (Vector2i \mbox{\hyperlink{class_base_item_afd679375983ad19d8a5e59812053a90c}{size}})
+\item 
+void \mbox{\hyperlink{class_base_item_a78e51f33d9f3b38ad28998671b3e4360}{set\+Text}} (string \mbox{\hyperlink{class_base_item_a066f0d82732edae319a4eb888d837d97}{text}})
+\item 
+void \mbox{\hyperlink{class_base_item_a3b249514782098be99feacd8443ddb68}{set\+Text\+Off\+Set}} (Vector2i \mbox{\hyperlink{class_base_item_a45e985abbb13835fb761cd3c81f65807}{text\+Off\+Set}})
+\item 
+void \mbox{\hyperlink{class_base_item_a8965ee668aeb035463e7d26e1e640b74}{set\+Border\+Thicknes}} (int \mbox{\hyperlink{class_base_item_a8a2c88506f21923fae8b147a7bf2e1a0}{border\+Thicknes}})
+\item 
+void \mbox{\hyperlink{class_base_item_a704b5ff631d684c13858ae0202902d7d}{set\+Border\+Color}} (Color \mbox{\hyperlink{class_base_item_ad116271d9222c49d455378cd32fd70dc}{border\+Color}})
+\item 
+void \mbox{\hyperlink{class_base_item_a1f79c5cd1533d15c0a1ec36c54229e11}{set\+Text\+Border\+Color}} (Color \mbox{\hyperlink{class_base_item_ad116271d9222c49d455378cd32fd70dc}{border\+Color}})
+\item 
+void \mbox{\hyperlink{class_base_item_a8aae98827a75ace2fba09db75f63bcd7}{set\+Font}} (Font \mbox{\hyperlink{class_base_item_aeb0ba89e28471d1c7de0fdd30f417a44}{font}})
+\item 
+void \mbox{\hyperlink{class_base_item_ae0a430124f20978a6c3859bd13c33632}{set\+Character\+Size}} (int \mbox{\hyperlink{class_base_item_acd66138244210ef488415044a073db8d}{character\+Size}})
+\item 
+void \mbox{\hyperlink{class_base_item_a4e1419f007f22bc483f8c9fd089c99a9}{set\+Color}} (Color \mbox{\hyperlink{class_base_item_a7a2b56b0dbbc45447f941097bb69e1cc}{color}})
+\item 
+void \mbox{\hyperlink{class_base_item_a430f26a1e41068f08fa7e9505396877d}{set\+Selected\+Color}} (Color \mbox{\hyperlink{class_base_item_ae33d20a453bce1a7cbceed03bf17a9ed}{selected\+Color}})
+\item 
+virtual bool \mbox{\hyperlink{class_base_item_abbae1081eab8aba0539799fb4c40f74a}{check\+Mouse\+On}} (Vector2i pos)
+\item 
+virtual bool \mbox{\hyperlink{class_base_item_a17144ec700b3d4c6e868ab52f77c178f}{check\+Click}} ()
+\item 
+void \mbox{\hyperlink{class_base_item_a97428dec06b6c8ccb605895fa1320d68}{set\+Is\+Selected}} (bool \mbox{\hyperlink{class_base_item_ad261325f0fe1683be4859db678ebd815}{is\+Selected}})
+\item 
+bool \mbox{\hyperlink{class_base_item_a2589bfc374dfa91671ebd76d8262a782}{get\+Is\+Selected}} ()
+\item 
+void \mbox{\hyperlink{class_base_item_a667f8c0deb81c12aea80d9b08ea6c377}{set\+Is\+Pushed}} (bool \mbox{\hyperlink{class_base_item_afdcb49ee83825a8bfe19d3a239e1bc62}{is\+Pushed}})
+\item 
+bool \mbox{\hyperlink{class_base_item_aaea517e5f061f6c3bae91cd0fac61ff4}{get\+Is\+Pushed}} ()
+\item 
+string \mbox{\hyperlink{class_base_item_a4aaf793c6bfd57e4213db0bb757e62b7}{get\+Text}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_base_item_ad974da0ff89de01a3186b075f214a38f}{recalc}} ()
+\item 
+virtual void \mbox{\hyperlink{class_base_item_a1420fafa7e10cc26a173c5709aff9ead}{draw}} (sf\+::\+Render\+Target \&target, sf\+::\+Render\+States states) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Vector2i \mbox{\hyperlink{class_base_item_af0e43625c27b305382ca730ac4981c3d}{position}}
+\item 
+Vector2i \mbox{\hyperlink{class_base_item_afd679375983ad19d8a5e59812053a90c}{size}}
+\item 
+Vector2i \mbox{\hyperlink{class_base_item_a45e985abbb13835fb761cd3c81f65807}{text\+Off\+Set}}
+\item 
+string \mbox{\hyperlink{class_base_item_a066f0d82732edae319a4eb888d837d97}{text}}
+\item 
+Color \mbox{\hyperlink{class_base_item_a7a2b56b0dbbc45447f941097bb69e1cc}{color}}
+\item 
+Color \mbox{\hyperlink{class_base_item_ae33d20a453bce1a7cbceed03bf17a9ed}{selected\+Color}}
+\item 
+Color \mbox{\hyperlink{class_base_item_adba34db22541ac269554c608382cf84e}{pushed\+Color}}
+\item 
+int \mbox{\hyperlink{class_base_item_a8a2c88506f21923fae8b147a7bf2e1a0}{border\+Thicknes}}
+\item 
+Color \mbox{\hyperlink{class_base_item_ad116271d9222c49d455378cd32fd70dc}{border\+Color}}
+\item 
+Color \mbox{\hyperlink{class_base_item_aa40dc748d7233c285df95ac1702b3061}{text\+Border\+Color}}
+\item 
+Font \mbox{\hyperlink{class_base_item_aeb0ba89e28471d1c7de0fdd30f417a44}{font}}
+\item 
+int \mbox{\hyperlink{class_base_item_acd66138244210ef488415044a073db8d}{character\+Size}}
+\item 
+Rectangle\+Shape \mbox{\hyperlink{class_base_item_ac7ff4821432d298e253bc9d63bde0c92}{rectobj}}
+\item 
+Text \mbox{\hyperlink{class_base_item_a318b108579382fae1e59c0271572ae84}{textobj}}
+\item 
+bool \mbox{\hyperlink{class_base_item_ad261325f0fe1683be4859db678ebd815}{is\+Selected}} = false
+\item 
+bool \mbox{\hyperlink{class_base_item_afdcb49ee83825a8bfe19d3a239e1bc62}{is\+Pushed}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_base_item_a3579a8a4ba057d87f12e19febff5cf14}\label{class_base_item_a3579a8a4ba057d87f12e19febff5cf14} 
+\index{BaseItem@{BaseItem}!BaseItem@{BaseItem}}
+\index{BaseItem@{BaseItem}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{BaseItem()}{BaseItem()}}
+{\footnotesize\ttfamily Base\+Item\+::\+Base\+Item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_base_item_a17144ec700b3d4c6e868ab52f77c178f}\label{class_base_item_a17144ec700b3d4c6e868ab52f77c178f} 
+\index{BaseItem@{BaseItem}!checkClick@{checkClick}}
+\index{checkClick@{checkClick}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{checkClick()}{checkClick()}}
+{\footnotesize\ttfamily bool Base\+Item\+::check\+Click (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_prod_item_af3c83cac67b1c7baa2ccf524f840c5fa}{Prod\+Item}}, \mbox{\hyperlink{class_menu_frame_a399cf06d8c3e8431ad9a57ce7fbe08a1}{Menu\+Frame}}, and \mbox{\hyperlink{class_order_frame_aba5357b16e3c25fb2f496048513f9113}{Order\+Frame}}.
+
+\Hypertarget{class_base_item_abbae1081eab8aba0539799fb4c40f74a}\label{class_base_item_abbae1081eab8aba0539799fb4c40f74a} 
+\index{BaseItem@{BaseItem}!checkMouseOn@{checkMouseOn}}
+\index{checkMouseOn@{checkMouseOn}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{checkMouseOn()}{checkMouseOn()}}
+{\footnotesize\ttfamily bool Base\+Item\+::check\+Mouse\+On (\begin{DoxyParamCaption}\item[{Vector2i}]{pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_prod_item_acdb633f512c606e76e4313a1ad155809}{Prod\+Item}}, \mbox{\hyperlink{class_menu_frame_adca666987e5f39f67ef114dd796f32ea}{Menu\+Frame}}, and \mbox{\hyperlink{class_order_frame_aab40b10a1f63e201ed8e9c8b6c826fc5}{Order\+Frame}}.
+
+\Hypertarget{class_base_item_a1420fafa7e10cc26a173c5709aff9ead}\label{class_base_item_a1420fafa7e10cc26a173c5709aff9ead} 
+\index{BaseItem@{BaseItem}!draw@{draw}}
+\index{draw@{draw}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Base\+Item\+::draw (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Target \&}]{target,  }\item[{sf\+::\+Render\+States}]{states }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+\Hypertarget{class_base_item_aaea517e5f061f6c3bae91cd0fac61ff4}\label{class_base_item_aaea517e5f061f6c3bae91cd0fac61ff4} 
+\index{BaseItem@{BaseItem}!getIsPushed@{getIsPushed}}
+\index{getIsPushed@{getIsPushed}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{getIsPushed()}{getIsPushed()}}
+{\footnotesize\ttfamily bool Base\+Item\+::get\+Is\+Pushed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_base_item_a2589bfc374dfa91671ebd76d8262a782}\label{class_base_item_a2589bfc374dfa91671ebd76d8262a782} 
+\index{BaseItem@{BaseItem}!getIsSelected@{getIsSelected}}
+\index{getIsSelected@{getIsSelected}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{getIsSelected()}{getIsSelected()}}
+{\footnotesize\ttfamily bool Base\+Item\+::get\+Is\+Selected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_base_item_a4aaf793c6bfd57e4213db0bb757e62b7}\label{class_base_item_a4aaf793c6bfd57e4213db0bb757e62b7} 
+\index{BaseItem@{BaseItem}!getText@{getText}}
+\index{getText@{getText}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{getText()}{getText()}}
+{\footnotesize\ttfamily string Base\+Item\+::get\+Text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_base_item_ad974da0ff89de01a3186b075f214a38f}\label{class_base_item_ad974da0ff89de01a3186b075f214a38f} 
+\index{BaseItem@{BaseItem}!recalc@{recalc}}
+\index{recalc@{recalc}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{recalc()}{recalc()}}
+{\footnotesize\ttfamily void Base\+Item\+::recalc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+\Hypertarget{class_base_item_a704b5ff631d684c13858ae0202902d7d}\label{class_base_item_a704b5ff631d684c13858ae0202902d7d} 
+\index{BaseItem@{BaseItem}!setBorderColor@{setBorderColor}}
+\index{setBorderColor@{setBorderColor}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{setBorderColor()}{setBorderColor()}}
+{\footnotesize\ttfamily void Base\+Item\+::set\+Border\+Color (\begin{DoxyParamCaption}\item[{Color}]{border\+Color }\end{DoxyParamCaption})}
+
+\Hypertarget{class_base_item_a8965ee668aeb035463e7d26e1e640b74}\label{class_base_item_a8965ee668aeb035463e7d26e1e640b74} 
+\index{BaseItem@{BaseItem}!setBorderThicknes@{setBorderThicknes}}
+\index{setBorderThicknes@{setBorderThicknes}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{setBorderThicknes()}{setBorderThicknes()}}
+{\footnotesize\ttfamily void Base\+Item\+::set\+Border\+Thicknes (\begin{DoxyParamCaption}\item[{int}]{border\+Thicknes }\end{DoxyParamCaption})}
+
+\Hypertarget{class_base_item_ae0a430124f20978a6c3859bd13c33632}\label{class_base_item_ae0a430124f20978a6c3859bd13c33632} 
+\index{BaseItem@{BaseItem}!setCharacterSize@{setCharacterSize}}
+\index{setCharacterSize@{setCharacterSize}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{setCharacterSize()}{setCharacterSize()}}
+{\footnotesize\ttfamily void Base\+Item\+::set\+Character\+Size (\begin{DoxyParamCaption}\item[{int}]{character\+Size }\end{DoxyParamCaption})}
+
+\Hypertarget{class_base_item_a4e1419f007f22bc483f8c9fd089c99a9}\label{class_base_item_a4e1419f007f22bc483f8c9fd089c99a9} 
+\index{BaseItem@{BaseItem}!setColor@{setColor}}
+\index{setColor@{setColor}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{setColor()}{setColor()}}
+{\footnotesize\ttfamily void Base\+Item\+::set\+Color (\begin{DoxyParamCaption}\item[{Color}]{color }\end{DoxyParamCaption})}
+
+\Hypertarget{class_base_item_a8aae98827a75ace2fba09db75f63bcd7}\label{class_base_item_a8aae98827a75ace2fba09db75f63bcd7} 
+\index{BaseItem@{BaseItem}!setFont@{setFont}}
+\index{setFont@{setFont}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{setFont()}{setFont()}}
+{\footnotesize\ttfamily void Base\+Item\+::set\+Font (\begin{DoxyParamCaption}\item[{Font}]{font }\end{DoxyParamCaption})}
+
+\Hypertarget{class_base_item_a667f8c0deb81c12aea80d9b08ea6c377}\label{class_base_item_a667f8c0deb81c12aea80d9b08ea6c377} 
+\index{BaseItem@{BaseItem}!setIsPushed@{setIsPushed}}
+\index{setIsPushed@{setIsPushed}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{setIsPushed()}{setIsPushed()}}
+{\footnotesize\ttfamily void Base\+Item\+::set\+Is\+Pushed (\begin{DoxyParamCaption}\item[{bool}]{is\+Pushed }\end{DoxyParamCaption})}
+
+\Hypertarget{class_base_item_a97428dec06b6c8ccb605895fa1320d68}\label{class_base_item_a97428dec06b6c8ccb605895fa1320d68} 
+\index{BaseItem@{BaseItem}!setIsSelected@{setIsSelected}}
+\index{setIsSelected@{setIsSelected}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{setIsSelected()}{setIsSelected()}}
+{\footnotesize\ttfamily void Base\+Item\+::set\+Is\+Selected (\begin{DoxyParamCaption}\item[{bool}]{is\+Selected }\end{DoxyParamCaption})}
+
+\Hypertarget{class_base_item_a36fbff9a0795e85d7d56c911d90981e8}\label{class_base_item_a36fbff9a0795e85d7d56c911d90981e8} 
+\index{BaseItem@{BaseItem}!setPosition@{setPosition}}
+\index{setPosition@{setPosition}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{setPosition()}{setPosition()}}
+{\footnotesize\ttfamily void Base\+Item\+::set\+Position (\begin{DoxyParamCaption}\item[{Vector2i}]{position }\end{DoxyParamCaption})}
+
+\Hypertarget{class_base_item_a430f26a1e41068f08fa7e9505396877d}\label{class_base_item_a430f26a1e41068f08fa7e9505396877d} 
+\index{BaseItem@{BaseItem}!setSelectedColor@{setSelectedColor}}
+\index{setSelectedColor@{setSelectedColor}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{setSelectedColor()}{setSelectedColor()}}
+{\footnotesize\ttfamily void Base\+Item\+::set\+Selected\+Color (\begin{DoxyParamCaption}\item[{Color}]{selected\+Color }\end{DoxyParamCaption})}
+
+\Hypertarget{class_base_item_af46a6bd627806dba6bdb79c29889ebcd}\label{class_base_item_af46a6bd627806dba6bdb79c29889ebcd} 
+\index{BaseItem@{BaseItem}!setSize@{setSize}}
+\index{setSize@{setSize}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{setSize()}{setSize()}}
+{\footnotesize\ttfamily void Base\+Item\+::set\+Size (\begin{DoxyParamCaption}\item[{Vector2i}]{size }\end{DoxyParamCaption})}
+
+\Hypertarget{class_base_item_a78e51f33d9f3b38ad28998671b3e4360}\label{class_base_item_a78e51f33d9f3b38ad28998671b3e4360} 
+\index{BaseItem@{BaseItem}!setText@{setText}}
+\index{setText@{setText}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{setText()}{setText()}}
+{\footnotesize\ttfamily void Base\+Item\+::set\+Text (\begin{DoxyParamCaption}\item[{string}]{text }\end{DoxyParamCaption})}
+
+\Hypertarget{class_base_item_a1f79c5cd1533d15c0a1ec36c54229e11}\label{class_base_item_a1f79c5cd1533d15c0a1ec36c54229e11} 
+\index{BaseItem@{BaseItem}!setTextBorderColor@{setTextBorderColor}}
+\index{setTextBorderColor@{setTextBorderColor}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{setTextBorderColor()}{setTextBorderColor()}}
+{\footnotesize\ttfamily void Base\+Item\+::set\+Text\+Border\+Color (\begin{DoxyParamCaption}\item[{Color}]{border\+Color }\end{DoxyParamCaption})}
+
+\Hypertarget{class_base_item_a3b249514782098be99feacd8443ddb68}\label{class_base_item_a3b249514782098be99feacd8443ddb68} 
+\index{BaseItem@{BaseItem}!setTextOffSet@{setTextOffSet}}
+\index{setTextOffSet@{setTextOffSet}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{setTextOffSet()}{setTextOffSet()}}
+{\footnotesize\ttfamily void Base\+Item\+::set\+Text\+Off\+Set (\begin{DoxyParamCaption}\item[{Vector2i}]{text\+Off\+Set }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_base_item_ad116271d9222c49d455378cd32fd70dc}\label{class_base_item_ad116271d9222c49d455378cd32fd70dc} 
+\index{BaseItem@{BaseItem}!borderColor@{borderColor}}
+\index{borderColor@{borderColor}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{borderColor}{borderColor}}
+{\footnotesize\ttfamily Color Base\+Item\+::border\+Color\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_base_item_a8a2c88506f21923fae8b147a7bf2e1a0}\label{class_base_item_a8a2c88506f21923fae8b147a7bf2e1a0} 
+\index{BaseItem@{BaseItem}!borderThicknes@{borderThicknes}}
+\index{borderThicknes@{borderThicknes}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{borderThicknes}{borderThicknes}}
+{\footnotesize\ttfamily int Base\+Item\+::border\+Thicknes\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_base_item_acd66138244210ef488415044a073db8d}\label{class_base_item_acd66138244210ef488415044a073db8d} 
+\index{BaseItem@{BaseItem}!characterSize@{characterSize}}
+\index{characterSize@{characterSize}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{characterSize}{characterSize}}
+{\footnotesize\ttfamily int Base\+Item\+::character\+Size\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_base_item_a7a2b56b0dbbc45447f941097bb69e1cc}\label{class_base_item_a7a2b56b0dbbc45447f941097bb69e1cc} 
+\index{BaseItem@{BaseItem}!color@{color}}
+\index{color@{color}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{color}{color}}
+{\footnotesize\ttfamily Color Base\+Item\+::color\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_base_item_aeb0ba89e28471d1c7de0fdd30f417a44}\label{class_base_item_aeb0ba89e28471d1c7de0fdd30f417a44} 
+\index{BaseItem@{BaseItem}!font@{font}}
+\index{font@{font}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{font}{font}}
+{\footnotesize\ttfamily Font Base\+Item\+::font\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_base_item_afdcb49ee83825a8bfe19d3a239e1bc62}\label{class_base_item_afdcb49ee83825a8bfe19d3a239e1bc62} 
+\index{BaseItem@{BaseItem}!isPushed@{isPushed}}
+\index{isPushed@{isPushed}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{isPushed}{isPushed}}
+{\footnotesize\ttfamily bool Base\+Item\+::is\+Pushed = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_base_item_ad261325f0fe1683be4859db678ebd815}\label{class_base_item_ad261325f0fe1683be4859db678ebd815} 
+\index{BaseItem@{BaseItem}!isSelected@{isSelected}}
+\index{isSelected@{isSelected}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{isSelected}{isSelected}}
+{\footnotesize\ttfamily bool Base\+Item\+::is\+Selected = false\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_base_item_af0e43625c27b305382ca730ac4981c3d}\label{class_base_item_af0e43625c27b305382ca730ac4981c3d} 
+\index{BaseItem@{BaseItem}!position@{position}}
+\index{position@{position}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{position}{position}}
+{\footnotesize\ttfamily Vector2i Base\+Item\+::position\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_base_item_adba34db22541ac269554c608382cf84e}\label{class_base_item_adba34db22541ac269554c608382cf84e} 
+\index{BaseItem@{BaseItem}!pushedColor@{pushedColor}}
+\index{pushedColor@{pushedColor}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{pushedColor}{pushedColor}}
+{\footnotesize\ttfamily Color Base\+Item\+::pushed\+Color\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_base_item_ac7ff4821432d298e253bc9d63bde0c92}\label{class_base_item_ac7ff4821432d298e253bc9d63bde0c92} 
+\index{BaseItem@{BaseItem}!rectobj@{rectobj}}
+\index{rectobj@{rectobj}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{rectobj}{rectobj}}
+{\footnotesize\ttfamily Rectangle\+Shape Base\+Item\+::rectobj\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_base_item_ae33d20a453bce1a7cbceed03bf17a9ed}\label{class_base_item_ae33d20a453bce1a7cbceed03bf17a9ed} 
+\index{BaseItem@{BaseItem}!selectedColor@{selectedColor}}
+\index{selectedColor@{selectedColor}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{selectedColor}{selectedColor}}
+{\footnotesize\ttfamily Color Base\+Item\+::selected\+Color\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_base_item_afd679375983ad19d8a5e59812053a90c}\label{class_base_item_afd679375983ad19d8a5e59812053a90c} 
+\index{BaseItem@{BaseItem}!size@{size}}
+\index{size@{size}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{size}{size}}
+{\footnotesize\ttfamily Vector2i Base\+Item\+::size\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_base_item_a066f0d82732edae319a4eb888d837d97}\label{class_base_item_a066f0d82732edae319a4eb888d837d97} 
+\index{BaseItem@{BaseItem}!text@{text}}
+\index{text@{text}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{text}{text}}
+{\footnotesize\ttfamily string Base\+Item\+::text\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_base_item_aa40dc748d7233c285df95ac1702b3061}\label{class_base_item_aa40dc748d7233c285df95ac1702b3061} 
+\index{BaseItem@{BaseItem}!textBorderColor@{textBorderColor}}
+\index{textBorderColor@{textBorderColor}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{textBorderColor}{textBorderColor}}
+{\footnotesize\ttfamily Color Base\+Item\+::text\+Border\+Color\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_base_item_a318b108579382fae1e59c0271572ae84}\label{class_base_item_a318b108579382fae1e59c0271572ae84} 
+\index{BaseItem@{BaseItem}!textobj@{textobj}}
+\index{textobj@{textobj}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{textobj}{textobj}}
+{\footnotesize\ttfamily Text Base\+Item\+::textobj\hspace{0.3cm}{\ttfamily [protected]}}
+
+\Hypertarget{class_base_item_a45e985abbb13835fb761cd3c81f65807}\label{class_base_item_a45e985abbb13835fb761cd3c81f65807} 
+\index{BaseItem@{BaseItem}!textOffSet@{textOffSet}}
+\index{textOffSet@{textOffSet}!BaseItem@{BaseItem}}
+\doxysubsubsection{\texorpdfstring{textOffSet}{textOffSet}}
+{\footnotesize\ttfamily Vector2i Base\+Item\+::text\+Off\+Set\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Visual\+Studio\+Projects/\+Sushi\+Project\+Release/\+Sushi\+Project/\mbox{\hyperlink{_base_item_8h}{Base\+Item.\+h}}\item 
+D\+:/\+Visual\+Studio\+Projects/\+Sushi\+Project\+Release/\+Sushi\+Project/\mbox{\hyperlink{_base_item_8cpp}{Base\+Item.\+cpp}}\end{DoxyCompactItemize}

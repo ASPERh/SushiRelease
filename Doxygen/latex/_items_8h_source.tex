@@ -1,0 +1,147 @@
+\doxysection{Items.\+h}
+\hypertarget{_items_8h_source}{}\label{_items_8h_source}\index{D:/VisualStudioProjects/SushiProjectRelease/SushiProject/Items.h@{D:/VisualStudioProjects/SushiProjectRelease/SushiProject/Items.h}}
+\mbox{\hyperlink{_items_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{include_8h}{include.h}}"{}}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_base_item_8h}{BaseItem.h}}"{}}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_item}{Item}}\ \ \textcolor{comment}{//обявление\ Item\ }}
+\DoxyCodeLine{00005\ \{}
+\DoxyCodeLine{00006\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00007\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_item_ae901ac3ab2273113f746340a7db4e388}{id}};\ \textcolor{comment}{//\ ИД}}
+\DoxyCodeLine{00008\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_item_a406cde7962a6b42a66b4a53c9a26db2c}{name}};\ \textcolor{comment}{//имя}}
+\DoxyCodeLine{00009\ \ \ \ \ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_item_acbfaa5182305c5993cf937d43feaecf8}{price}};\ \textcolor{comment}{//цена}}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_item_a6e1bc6d50e833862d92d58bbfe3266fc}{descript}};\textcolor{comment}{//описание}}
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_item_ab43548c82e32800456437bac81a33635}{imageName}};\ \textcolor{comment}{//имя\ картинки}}
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_item_ab3d6f32f876bd64e3450345fc0dfa6e2}{count}};\ \textcolor{comment}{//количество}}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_item_a4dd434860da8fa57e1d0c3c2771a42f7}{select}};\ \textcolor{comment}{//если выбран}}
+\DoxyCodeLine{00014\ \};}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_button}{Button}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_base_item}{BaseItem}}}
+\DoxyCodeLine{00018\ \{}
+\DoxyCodeLine{00019\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{void}\ recalc();\textcolor{comment}{//пересчет}}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ draw(sf::RenderTarget\&\ target,\ sf::RenderStates\ states)\ \textcolor{keyword}{const};\ \textcolor{comment}{//отрисовка\ обьектов}}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00024\ \ \ \ \ \mbox{\hyperlink{class_button_a3b36df1ae23c58aedb9e15a713159459}{Button}}();\ \textcolor{comment}{//\ конструктор}}
+\DoxyCodeLine{00025\ \};}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_prod_item}{ProdItem}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_base_item}{BaseItem}}}
+\DoxyCodeLine{00029\ \{}
+\DoxyCodeLine{00030\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \ \ \ \ \mbox{\hyperlink{class_item}{Item}}\ *itm;\ \textcolor{comment}{//ссылка на обект данных}}
+\DoxyCodeLine{00033\ \ \ \ \ }
+\DoxyCodeLine{00034\ \ \ \ \ Vector2i\ btnSize;\ \textcolor{comment}{//\ размер по x\ и y}}
+\DoxyCodeLine{00035\ \ \ \ \ Text\ capobj;\ \textcolor{comment}{//объект\ заголовка}}
+\DoxyCodeLine{00036\ \ \ \ \ Text\ sumobj;\ \textcolor{comment}{//обьект\ суммы}}
+\DoxyCodeLine{00037\ \ \ \ \ }
+\DoxyCodeLine{00038\ \ \ \ \ \mbox{\hyperlink{class_button}{Button}}\ orderBtn;\ \textcolor{comment}{//\ кнопка\ заказа}}
+\DoxyCodeLine{00039\ \ \ \ \ \mbox{\hyperlink{class_button}{Button}}\ incBtn;\ \textcolor{comment}{//\ кнопка\ увелечения}}
+\DoxyCodeLine{00040\ \ \ \ \ \mbox{\hyperlink{class_button}{Button}}\ decBtn;\ \textcolor{comment}{//\ кнопка\ уменьшения}}
+\DoxyCodeLine{00041\ \ \ \ \ Texture\ pic;\ \textcolor{comment}{//\ картинка}}
+\DoxyCodeLine{00042\ \ \ \ \ Sprite\ image;\ \textcolor{comment}{//\ обьект\ для\ картинки}}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordtype}{bool}\ isVisible;\ \textcolor{comment}{//\ видимый/невидимый}}
+\DoxyCodeLine{00045\ \ }
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{void}\ recalc();\ \textcolor{comment}{//\ пересчет}}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ draw(sf::RenderTarget\&\ target,\ sf::RenderStates\ states)\ \textcolor{keyword}{const};\ \textcolor{comment}{//отрисовка\ обьектов}}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00051\ \ \ \ \ \mbox{\hyperlink{class_prod_item_a413a20427e19d3b837a38ab943d3f133}{ProdItem}}();\ \textcolor{comment}{//\ конструктор}}
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_prod_item_acdb633f512c606e76e4313a1ad155809}{checkMouseOn}}(Vector2i\ pos);\ \textcolor{comment}{//метод для\ определения нахождения\ курсора\ на объекте}}
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_prod_item_af3c83cac67b1c7baa2ccf524f840c5fa}{checkClick}}();\ \textcolor{comment}{//метод для\ определения нажатия\ на объекте}}
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_prod_item_a1ff69bc9aab9c50ce37bff59eb2232be}{setItem}}(\mbox{\hyperlink{class_item}{Item}}\ \&itm);\ \textcolor{comment}{//метод для\ передачи обьекта\ данных}}
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_prod_item_ad32f6c67ca54dbda1bf68d594a713e19}{setVisibe}}(\textcolor{keywordtype}{bool}\ isVisible);\ \textcolor{comment}{//метод для\ установки видимости}}
+\DoxyCodeLine{00056\ \ \ \ \ \mbox{\hyperlink{class_item}{Item}}\&\ \mbox{\hyperlink{class_prod_item_acb2fba79ddb5f29e318e4bd1326fd797}{getItem}}();\ \textcolor{comment}{//\ получение обьекта данных}}
+\DoxyCodeLine{00057\ \};}
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00059\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_info_item}{InfoItem}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_base_item}{BaseItem}}\ \textcolor{comment}{//\ }}
+\DoxyCodeLine{00060\ \{}
+\DoxyCodeLine{00061\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00062\ \ \ \ \ Text\ capobj;\ \textcolor{comment}{//объект\ заголовка}}
+\DoxyCodeLine{00063\ \ \ \ \ Text\ sumobj;\ \textcolor{comment}{//обьект\ суммы}}
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keywordtype}{void}\ recalc();\ \textcolor{comment}{//\ пересчет}}
+\DoxyCodeLine{00065\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ draw(sf::RenderTarget\&\ target,\ sf::RenderStates\ states)\ \textcolor{keyword}{const};\ \textcolor{comment}{//отрисовка\ обьектов}}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00067\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00068\ \ \ \ \ \mbox{\hyperlink{class_info_item_a91e3eb878969bbc2089665052fd67b12}{InfoItem}}();\ \textcolor{comment}{//\ конструктор}}
+\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_info_item_a9de5ecee9fe6dcadc207e7c7c15777e0}{SetSum}}(\textcolor{keywordtype}{double}\ sum);\ \textcolor{comment}{//\ задать\ цену}}
+\DoxyCodeLine{00070\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_info_item_a3fc141559e9c915d3722fbb09ffc9033}{SetString}}(String\ str);\ \textcolor{comment}{//\ задать\ строку}}
+\DoxyCodeLine{00071\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_info_item_ab787f72357b79947cf10a4cab6bad24b}{SetCaption}}(String\ str);\ \textcolor{comment}{//\ задать\ загаловок}}
+\DoxyCodeLine{00072\ \};}
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00074\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_menu_frame}{MenuFrame}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_base_item}{BaseItem}}}
+\DoxyCodeLine{00075\ \{}
+\DoxyCodeLine{00076\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00077\ }
+\DoxyCodeLine{00078\ \ \ \ \ vector\ <Item>\ items;\ \textcolor{comment}{//\ вектор данных}}
+\DoxyCodeLine{00079\ \ \ \ \ }
+\DoxyCodeLine{00080\ \ \ \ \ \mbox{\hyperlink{class_info_item}{InfoItem}}\ info;\ \textcolor{comment}{//\ отображение суммы}}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00082\ \ \ \ \ \mbox{\hyperlink{class_button}{Button}}\ nextBtn;\ \textcolor{comment}{//\ кнопка\ следующей страницы}}
+\DoxyCodeLine{00083\ \ \ \ \ \mbox{\hyperlink{class_button}{Button}}\ prevBtn;\ \textcolor{comment}{//\ кнопка\ предыдущий\ страницы}}
+\DoxyCodeLine{00084\ \ \ \ \ \mbox{\hyperlink{class_button}{Button}}\ orderBtn;\ \textcolor{comment}{//\ кнопка\ заказа}}
+\DoxyCodeLine{00085\ \ \ \ \ \mbox{\hyperlink{class_button}{Button}}\ closeBtn;\ \textcolor{comment}{//\ кнопка\ закрытия}}
+\DoxyCodeLine{00086\ }
+\DoxyCodeLine{00087\ \ \ \ \ \mbox{\hyperlink{class_prod_item}{ProdItem}}\ itmobj1;\ \textcolor{comment}{//\ обьект\ 1}}
+\DoxyCodeLine{00088\ \ \ \ \ \mbox{\hyperlink{class_prod_item}{ProdItem}}\ itmobj2;\ \textcolor{comment}{//\ обьект\ 2}}
+\DoxyCodeLine{00089\ \ \ \ \ \mbox{\hyperlink{class_prod_item}{ProdItem}}\ itmobj3;\ \textcolor{comment}{//\ обьект\ 3}}
+\DoxyCodeLine{00090\ \ \ \ \ \mbox{\hyperlink{class_prod_item}{ProdItem}}\ itmobj4;\ \textcolor{comment}{//\ обьект\ 4}}
+\DoxyCodeLine{00091\ \ \ \ \ \mbox{\hyperlink{class_prod_item}{ProdItem}}\ itmobj5;\ \textcolor{comment}{//\ обьект\ 5}}
+\DoxyCodeLine{00092\ \ \ \ \ \mbox{\hyperlink{class_prod_item}{ProdItem}}\ itmobj6;\ \textcolor{comment}{//\ обьект\ 6}}
+\DoxyCodeLine{00093\ \ \ \ \ \mbox{\hyperlink{class_prod_item}{ProdItem}}\ itmobj7;\ \textcolor{comment}{//\ обьект\ 7}}
+\DoxyCodeLine{00094\ \ \ \ \ \mbox{\hyperlink{class_prod_item}{ProdItem}}\ itmobj8;\ \textcolor{comment}{//\ обьект\ 8}}
+\DoxyCodeLine{00095\ \ \ \ \ \mbox{\hyperlink{class_prod_item}{ProdItem}}\ itmobj9;\ \textcolor{comment}{//\ обьект\ 9}}
+\DoxyCodeLine{00096\ \ \ \ \ }
+\DoxyCodeLine{00097\ \ \ \ \ \textcolor{keywordtype}{int}\ curPage;\ \textcolor{comment}{//\ текущая страница}}
+\DoxyCodeLine{00098\ \ \ \ \ \textcolor{keywordtype}{int}\ numPages;\ \textcolor{comment}{//\ количество\ страниц}}
+\DoxyCodeLine{00099\ \ \ \ \ }
+\DoxyCodeLine{00100\ \ \ \ \ \textcolor{keywordtype}{bool}\ orderStatus;\ \textcolor{comment}{//\ статус заказа}}
+\DoxyCodeLine{00101\ }
+\DoxyCodeLine{00102\ \ \ \ \ \textcolor{keywordtype}{void}\ recalc();\ \textcolor{comment}{//\ пересчет}}
+\DoxyCodeLine{00103\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ draw(sf::RenderTarget\&\ target,\ sf::RenderStates\ states)\ \textcolor{keyword}{const};\ \textcolor{comment}{//отрисовка\ обьектов}}
+\DoxyCodeLine{00104\ }
+\DoxyCodeLine{00105\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00106\ \ \ \ \ \mbox{\hyperlink{class_menu_frame_a976eee571ae5d8775506ff9f40953f48}{MenuFrame}}();\ \textcolor{comment}{//\ конструктор}}
+\DoxyCodeLine{00107\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_menu_frame_adca666987e5f39f67ef114dd796f32ea}{checkMouseOn}}(Vector2i\ pos);\ \textcolor{comment}{//метод для\ определения нахождения\ курсора\ на объекте}}
+\DoxyCodeLine{00108\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_menu_frame_a399cf06d8c3e8431ad9a57ce7fbe08a1}{checkClick}}();\ \textcolor{comment}{//метод для\ определения нажатия\ на объекте}}
+\DoxyCodeLine{00109\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_menu_frame_a512b7e41273d94955420b824752c0992}{getOrderStatus}}();\ \textcolor{comment}{//\ проверка статуса заказа}}
+\DoxyCodeLine{00110\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_menu_frame_a0e3d5dabacce03099966962a909b01ba}{pushProd}}(\mbox{\hyperlink{class_item}{Item}}\ \&itm);\ \textcolor{comment}{//\ пушим обьект\ данных}}
+\DoxyCodeLine{00111\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_menu_frame_a42765513a43a5de9d635fd44902f3ee4}{clearProd}}();\ \textcolor{comment}{//\ очищаем данные}}
+\DoxyCodeLine{00112\ \ \ \ \ vector\ <Item>\ \mbox{\hyperlink{class_menu_frame_a94fde69563bc69583e4f312cfb1497d4}{getSelectedItems}}();\ \textcolor{comment}{//\ получаем вектор выбранных данных}}
+\DoxyCodeLine{00113\ \};}
+\DoxyCodeLine{00114\ }
+\DoxyCodeLine{00115\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_order_frame}{OrderFrame}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_base_item}{BaseItem}}}
+\DoxyCodeLine{00116\ \{}
+\DoxyCodeLine{00117\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00118\ }
+\DoxyCodeLine{00119\ \ \ \ \ vector\ <Item>\ items;\ \textcolor{comment}{//\ вектор данных}}
+\DoxyCodeLine{00120\ }
+\DoxyCodeLine{00121\ \ \ \ \ \mbox{\hyperlink{class_info_item}{InfoItem}}\ sumInfo;\ \textcolor{comment}{//\ информация\ суммы}}
+\DoxyCodeLine{00122\ \ \ \ \ \mbox{\hyperlink{class_info_item}{InfoItem}}\ orderInfo;\ \textcolor{comment}{//\ информация\ заказа}}
+\DoxyCodeLine{00123\ \ \ \ \ \mbox{\hyperlink{class_info_item}{InfoItem}}\ addressInfo;\ \textcolor{comment}{//\ информация\ адреса}}
+\DoxyCodeLine{00124\ \ \ \ \ \mbox{\hyperlink{class_button}{Button}}\ appruveBtn;\ \textcolor{comment}{//\ кнопка\ подтверждения}}
+\DoxyCodeLine{00125\ \ \ \ \ \mbox{\hyperlink{class_button}{Button}}\ closeBtn;\ \textcolor{comment}{//\ кнопка\ закрытия}}
+\DoxyCodeLine{00126\ \ \ \ \ String*\ txtbuffer;\ \textcolor{comment}{//\ буфер для\ ввода текста}}
+\DoxyCodeLine{00127\ }
+\DoxyCodeLine{00128\ \ \ \ \ \textcolor{keywordtype}{bool}\ orderStatus;\ \textcolor{comment}{//\ статус заказа}}
+\DoxyCodeLine{00129\ }
+\DoxyCodeLine{00130\ \ \ \ \ \textcolor{keywordtype}{void}\ recalc();\ \textcolor{comment}{//\ пересчет}}
+\DoxyCodeLine{00131\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ draw(sf::RenderTarget\&\ target,\ sf::RenderStates\ states)\ \textcolor{keyword}{const};\ \textcolor{comment}{//отрисовка\ обьектов}}
+\DoxyCodeLine{00132\ }
+\DoxyCodeLine{00133\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00134\ \ \ \ \ \mbox{\hyperlink{class_order_frame_a20e9132a0eb6ccd275744d2b451a7636}{OrderFrame}}();\ \textcolor{comment}{//\ конструктор}}
+\DoxyCodeLine{00135\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_order_frame_aab40b10a1f63e201ed8e9c8b6c826fc5}{checkMouseOn}}(Vector2i\ pos);\ \textcolor{comment}{//метод для\ определения нахождения\ курсора\ на объекте}}
+\DoxyCodeLine{00136\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_order_frame_aba5357b16e3c25fb2f496048513f9113}{checkClick}}();\ \textcolor{comment}{//метод для\ определения нажатия\ на объекте}}
+\DoxyCodeLine{00137\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_order_frame_af885b57622f5dd22f0e448679d163147}{getOrderStatus}}();\ \textcolor{comment}{//\ проверка статуса заказа}}
+\DoxyCodeLine{00138\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_order_frame_a09be12abbe5ac7e37f2ad693d7b01216}{setSelectedItems}}(vector\ <Item>\ itms);\ \textcolor{comment}{//\ передаем вектор данных}}
+\DoxyCodeLine{00139\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_order_frame_ab6f5e18acc754d984629754702487ac0}{setTxtBuffer}}(String\ \ \&buffer);\ \textcolor{comment}{//\ устанавливаем\ буфер для\ ввода текста}}
+\DoxyCodeLine{00140\ \ \ \ \ }
+\DoxyCodeLine{00141\ \};}
+
+\end{DoxyCode}

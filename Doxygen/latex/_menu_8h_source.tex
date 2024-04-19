@@ -1,0 +1,31 @@
+\doxysection{Menu.\+h}
+\hypertarget{_menu_8h_source}{}\label{_menu_8h_source}\index{D:/VisualStudioProjects/SushiProjectRelease/SushiProject/Menu.h@{D:/VisualStudioProjects/SushiProjectRelease/SushiProject/Menu.h}}
+\mbox{\hyperlink{_menu_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{include_8h}{include.h}}"{}}}
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <algorithm>}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct_product}{Product}}\ \{\ \textcolor{comment}{//\ структура данных продукта}}
+\DoxyCodeLine{00006\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_product_a32e802ac149ad39a7a11acd4e804c407}{id}};\ \textcolor{comment}{//\ »ƒ}}
+\DoxyCodeLine{00007\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{struct_product_acc9bddcf74112d85a6dc231db2269b8d}{name}};\ \textcolor{comment}{//\ название}}
+\DoxyCodeLine{00008\ \ \ \ \ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{struct_product_abb2572df7a832a509944905603ba5e4f}{price}};\ \textcolor{comment}{//\ цена}}
+\DoxyCodeLine{00009\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{struct_product_aa5260648674cc3da8b1096e178dbf28f}{descript}};\ \textcolor{comment}{//\ описание}}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{struct_product_abb8d7bd579598be90c01d0491095a1db}{imageName}};\ \textcolor{comment}{//\ названи€ картинки}}
+\DoxyCodeLine{00011\ \};}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_menu}{Menu}}\ \textcolor{comment}{//\ обь€вление\ класса меню}}
+\DoxyCodeLine{00014\ \{}
+\DoxyCodeLine{00015\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00016\ \ \ \ \ vector<Product>\ menu;\ \textcolor{comment}{//\ вектор данных}}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{string}\ path;\ \textcolor{comment}{//\ путь}}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{void}\ setExePath();\ \textcolor{comment}{//\ получение пути к\ .EXE\ файлу }}
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00020\ \ \ \ \ \mbox{\hyperlink{class_menu_ad466dd83355124a6ed958430450bfe94}{Menu}}();\ \textcolor{comment}{//\ конструктор класса}}
+\DoxyCodeLine{00021\ }
+\DoxyCodeLine{00022\ \ \ \ \ vector<Product>\ \mbox{\hyperlink{class_menu_ac000698c9ccbb8474e2926ba1bf95b20}{getProducts}}();\ \textcolor{comment}{//\ получение данных\ продуктов}}
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{struct_product}{Product}}\ \mbox{\hyperlink{class_menu_aec3fa292464b3a5e605eb071d0f85a17}{getProduct}}(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id});\ \textcolor{comment}{//\ получить продукта\ по »ƒ}}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_menu_a6b7a5e7b218d2e4e77313a5d5ee502d2}{getProductPath}}(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id});\ \textcolor{comment}{//\ получение пути дл€ картинки}}
+\DoxyCodeLine{00025\ \};}
+
+\end{DoxyCode}

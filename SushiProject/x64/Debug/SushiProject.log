@@ -1,0 +1,51 @@
+﻿  Items.cpp
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(49,10): warning C4244: инициализация: преобразование "unsigned __int64" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(50,18): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(105,50): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(105,33): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,29): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,29): warning C4244:         with
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,29): warning C4244:         [
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,29): warning C4244:             T=int
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,29): warning C4244:         ]
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,29): warning C4244:         and
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,29): warning C4244:         [
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,29): warning C4244:             T=float
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,29): warning C4244:         ]
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,21): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,21): warning C4244:         with
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,21): warning C4244:         [
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,21): warning C4244:             T=int
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,21): warning C4244:         ]
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,21): warning C4244:         and
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,21): warning C4244:         [
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,21): warning C4244:             T=float
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(263,21): warning C4244:         ]
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(265,42): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(265,42): warning C4244:         with
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(265,42): warning C4244:         [
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(265,42): warning C4244:             T=int
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(265,42): warning C4244:         ]
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(265,30): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(265,30): warning C4244:         with
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(265,30): warning C4244:         [
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(265,30): warning C4244:             T=int
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(265,30): warning C4244:         ]
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(267,30): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(274,45): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(274,45): warning C4244:         with
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(274,45): warning C4244:         [
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(274,45): warning C4244:             T=int
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(274,45): warning C4244:         ]
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(274,32): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(282,49): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(282,32): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(293,49): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(293,31): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(438,49): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(438,32): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(439,50): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(439,32): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(513,50): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\VisualStudioProjects\SushiProjectRelease\SushiProject\Items.cpp(513,33): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  SushiProject.vcxproj -> D:\VisualStudioProjects\SushiProjectRelease\x64\Debug\SushiProject.exe
